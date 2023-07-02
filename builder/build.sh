@@ -40,7 +40,7 @@ fetch_packages(){
 }
 
 build_container(){
-    docker build -t $1 -f "Dockerfile" "$START_DIR/build"
+    docker build -t $1 -f "Dockerfile" build
 }
 
 
